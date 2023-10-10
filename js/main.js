@@ -275,3 +275,20 @@
 
 })(jQuery);
 
+
+
+const moreBtn = document.getElementById('more_btn')
+moreBtn.addEventListener('click',()=> {
+	const textContainer = document.getElementById('custom_text')
+	const elementHeight = textContainer.offsetWidth;
+
+	if(	moreBtn.innerText === 'less'){
+		// console.log();
+		textContainer.style.height ='120px'
+		moreBtn.innerText = 'more'
+	}
+		else {
+			const elementHeightstr = `${elementHeight-150}px`
+			textContainer.style.height = elementHeightstr
+		moreBtn.innerText = 'less'}
+})

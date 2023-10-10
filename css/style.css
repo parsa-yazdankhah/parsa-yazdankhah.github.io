@@ -9682,3 +9682,22 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+.my_text{
+  height: 120px;
+  overflow: hidden;
+}
+
+.custom_btn{
+  background-color: #ffbd39;
+  border-radius: 20px;
+  outline: none !important;
+  width: 70px;
+}
+
+.button_container{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
